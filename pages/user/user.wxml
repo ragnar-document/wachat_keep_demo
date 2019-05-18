@@ -1,0 +1,90 @@
+<view class='user_container'>
+  <view class='top_container'>
+    <view class='top_message pd'>
+        <view> <image class='top_message_logo' src='/pulic/logo.png'></image> </view>
+        <view><text class='top_message_name'>Ragnar被注册了</text></view>
+        <view class="_right"><image class='top_message_right' src='/pulic/icon/right.png'></image></view>
+      </view>
+      <view class='focus_message pd'>
+        <view class='focus_message_item'>
+          <a>16</a>
+          <text class='grey'>关注</text>
+        </view>
+        <view class='focus_message_item'>
+          <a>117</a>
+          <text class='grey'>粉丝</text>
+        </view>
+        <view class='focus_message_item'>
+          <a>168</a>
+          <text class='grey'>动态</text>
+        </view>
+        <view class='focus_message_item'>
+          <a>105</a>
+          <text class='grey'>卡路里币</text>
+        </view>
+      </view>
+  </view>
+  <view class='myClass_message pd'>
+    <view><image class='small_icon' src='/pulic/icon/my_class.png'></image><text class='tspx'>我的课程</text></view>
+    <view><image class='small_icon' src='/pulic/icon/my_calendar.png'></image><text class='tspx'>我的活动</text></view>
+    <view><image class='small_icon' src='/pulic/icon/my_watcher.png'></image><text class='tspx'>我的硬件</text></view>
+  </view>
+  <view class='background_grey'>
+    <view class='member_message '>
+    <view>
+      <image class='small_icon' src='/pulic/icon/diamond.png'></image>
+      <text>首单立减10元！</text>
+    </view>
+    <text class='member_btn'>开通会员</text>
+  </view>
+    <view class='my_sport_data card'>
+        <view class='my_sport_data_title'><text>我的运动数据</text> <image class='top_message_right' src='/pulic/icon/right.png'></image></view>
+        <view class="flex">
+          <view class="_data_number">
+            <view>
+              <text class='_data_number_title'>总运动</text><text class="small_font" >( 分钟 )</text>
+              <text class="alltime" selectable="false" space="false" decode="false">
+                9999
+              </text>
+            </view>
+          </view>
+          <view class="_data_number">
+            <view>
+              <text class='_data_number_title'>近一周运动</text><text class="small_font" >( 分钟 )</text>
+              <text class="alltime" selectable="false" space="false" decode="false">
+                9999
+              </text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='my_body_data card'>
+        <view class='my_sport_data_title'><text>我的身体数据</text> <image class='top_message_right' src='/pulic/icon/right.png'></image></view>
+        <view class='flex'>
+          <view><text class="alltime">178.0</text><text class='small_font'>身高 cm</text></view>
+          <view><text class="alltime">60</text><text class='small_font'>体重 kg</text></view>
+        </view>
+      </view>
+      <view class='my_collect card_small flex'>
+        <view class='flex'>
+          <image class='small_icon' src='/pulic/icon/sc.png'></image>
+          <text class='tspx'>我的收藏</text>
+        </view>
+        <view><image class='top_message_right' src='/pulic/icon/right.png'></image></view>
+      </view>
+      <view class='my_purse card_small flex'>
+        <view class='flex'>
+          <image class='small_icon' src='/pulic/icon/mb.png'></image>
+          <text class='tspx'>我的钱包</text>
+        </view>
+        <view><image class='top_message_right' src='/pulic/icon/right.png'></image></view>
+      </view>
+    <view class='my_order card_small flex'>
+      <view class='flex'>
+          <image class='small_icon' src='/pulic/icon/dd.png'></image>
+          <text class='tspx'>我的订单</text>
+        </view>
+        <view><image class='top_message_right' src='/pulic/icon/right.png'></image></view>
+    </view>
+  </view>
+</view>

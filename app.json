@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/project/project",
+    "pages/sports/sports",
+    "pages/probe/probe",
+    "pages/home/home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor":"#000",
+    "list": [   
+      {
+        "iconPath":"pulic/icon/home1.png",
+        "selectedIconPath":"pulic/icon/home.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "iconPath": "pulic/icon/probe1.png",
+        "selectedIconPath": "pulic/icon/probe.png",
+        "pagePath": "pages/probe/probe",
+        "text": "探索"
+      },
+      {
+        "iconPath": "pulic/icon/lightning1.png",
+        "selectedIconPath": "pulic/icon/lightning.png",
+        "pagePath": "pages/sports/sports",
+        "text": "运动"
+      },
+      {
+        "iconPath": "pulic/icon/project1.png",
+        "selectedIconPath": "pulic/icon/project.png",
+        "pagePath": "pages/project/project",
+        "text": "计划"
+      },
+      {
+        "iconPath": "pulic/icon/me1.png",
+        "selectedIconPath": "pulic/icon/me.png",
+        "pagePath": "pages/user/user",
+        "text": "我"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

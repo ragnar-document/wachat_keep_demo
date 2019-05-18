@@ -1,0 +1,45 @@
+<view class="swiper-tab">
+  <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">热门</view>
+  <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">关注</view>
+  <view class="swiper-tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">话题</view>
+
+  <view class="swiper-tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="clickTab">同城</view>
+</view>
+
+<swiper current="{{currentTab}}" duration="300" bindchange="swiperTab">
+  <swiper-item class="all">
+    <view class="list">全部内容列表</view>
+    <view class="list">全部内容列表</view>
+    <view class="list">全部内容列表</view>
+    <view class="list">全部内容列表</view>
+  </swiper-item>
+
+  <swiper-item class="clairy">
+    <view class="list">分类内容列表</view>
+    <view class="list">分类内容列表</view>
+    <view class="list">分类内容列表</view>
+    <view class="list">分类内容列表</view>
+  </swiper-item>
+
+  <swiper-item class="game">
+    <view class="list">游戏内容列表</view>
+    <view class="list">游戏内容列表</view>
+    <view class="list">游戏内容列表</view>
+    <view class="list">游戏内容列表</view>
+  </swiper-item>
+
+  <swiper-item class="application">
+    <view class="list">应用内容列表</view>
+    <view class="list">应用内容列表</view>
+    <view class="list">应用内容列表</view>
+    <view class="list">应用内容列表</view>
+  </swiper-item>
+
+  <swiper-item class="social">
+    <view class="list">社交内容列表</view>
+    <view class="list">社交内容列表</view>
+    <view class="list">社交内容列表</view>
+    <view class="list">社交内容列表</view>
+  </swiper-item>
+</swiper>
+

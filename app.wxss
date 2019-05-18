@@ -1,0 +1,60 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* pages/home/home.wxss */
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #ccc;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+
+.swiper-tab-item {
+  width: 30%;
+  color: #999;
+  font-size: 32rpx;
+  /* border:1px solid #ccc; */
+}
+
+
+.active {
+  color: #434343;
+  border-bottom: 4rpx solid #434343;
+}
+
+swiper {
+  text-align: center;
+}
+
+.all .list {
+  height: 30pt;
+}
+
+.clairy .list {
+  height: 30pt;
+}
+
+.game .list {
+  height: 30pt;
+}
+
+.application .list {
+  height: 30pt;
+}
+
+.social .list {
+  height: 30pt;
+}
